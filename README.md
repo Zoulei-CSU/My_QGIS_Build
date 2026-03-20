@@ -21,10 +21,14 @@
 1. Win版本的解压即用（最好解压到无中文、无空格的路径下），解压后执行QGISLauncher.exe即可。
 2. Linux下载的AppImage文件，可能需要手动添加可执行权限：`chomd a+x xxx.AppImage`
 3. 如果Linux用户希望修改AppImage文件内容，直接解包即可：`./xxx.AppImage --appimage-extract`。如有能力解包修改，可以发现为了兼容性，包内带上了很多系统文件，存储在`lib64/ext`目录下，这里可以根据自己的系统情况进行修改。
+4. 有些Linux系统上，可能第一次启动会提示崩溃，第二次以后就好了。
+5. 如果Linux双击启动没反应，可以去控制台启动，看看报错信息。
 
 ------
 
 ![image1](./images/image1.png)
+
+![image2](./images/image2.png)
 
 ------
 
